@@ -129,7 +129,7 @@ You can run:
 ```sh
 python3 com_tc.py -fn david -clf l1 -rs 1
 ```
-'clf' means the choosen classifiers, we offer rf, lr, svm, knn and xgb for evaluation.
+'clf' means the choosen classifiers, we offer rf, l1, svm, knn and xgb for evaluation.
 
 
 if you want to test the performance based on different feature selection methods:
