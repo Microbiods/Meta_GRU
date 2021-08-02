@@ -127,7 +127,7 @@ if you want to test the performance of tranditional classifiers:
 You can run:
 
 ```sh
-python3 com_tc.py -fn david -clf lr -rs 1
+python3 com_tc.py -fn david -clf l1 -rs 1
 ```
 'clf' means the choosen classifiers, we offer rf, lr, svm, knn and xgb for evaluation.
 
@@ -136,7 +136,7 @@ if you want to test the performance based on different feature selection methods
 You can run:
 
 ```sh
-python3 com_fs.py -fn david -clf lr -rs 1 -es tr
+python3 com_fs.py -fn david -clf l1 -rs 1 -es tr
 ```
 'clf' means the choosen methods for feature extraction, we offer ae, vt, pca, rfe, l1 and rf for evaluation.
 The basic deep learning model is GRU4.
@@ -150,9 +150,7 @@ python3 fine_tuning.py -fn david -clf tcrf -rs 1 -es tr
 ```
 'clf' means the choosen fine-tuning models, we offer tcrf, tcsvm, ft1,ft2 and ft3 for comparison.
 
-All the model parameters and the structures can be seen from our paper, and the prediction tools will be further completed and updated after the maniscript is accepted.
-
-
+All the model parameters and the structures can be seen from our paper.
 
 
 
