@@ -1,6 +1,7 @@
 # Micro_GRU
 
-# Contact: Xingjian Chen (xingjchen3 [dash] c [at] my [dot] cityu [dot] edu [dot] hk)
+# Contact: Xingjian Chen 
+(xingjchen3-c@my.cityu.edu.hk)
 
 Human Host Status Inference from Temporal Microbiome Changes via Deep Learning
 
